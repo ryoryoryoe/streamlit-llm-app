@@ -1,7 +1,8 @@
 import streamlit as st
 from dotenv import load_dotenv
+
 from langchain_openai import ChatOpenAI
-from langchain.schema import SystemMessage, HumanMessage
+from langchain_core.messages import SystemMessage, HumanMessage
 
 # .env 読み込み（ローカル用）
 load_dotenv()
